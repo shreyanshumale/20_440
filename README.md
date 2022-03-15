@@ -3,9 +3,11 @@ This repository contains data/scripts pertaining to the course project for 20.44
 - **Data:**
 We use data from NextStrain on mutation-summary of around ~400,000 SARS-CoV2 sequences collected over the past 2 years to identify mutational hotpsots in the SPike protein region of the virus. 
 - **Folder structure:**
-The data/ folder contains strain a tree file for phylogeny of the strains and a download_links.txt file that has links to the mutation-summary.tsv and aligned-sequences.fasta.xz files on the nextstrain server. The user must download these and store them in the data folder in thier local cloned repos before running the scripts.
+The _data/_ folder contains strain a tree file for phylogeny of the strains and a download_links.txt file that has links to the mutation-summary.tsv and aligned-sequences.fasta.xz files on the nextstrain server. The user must download these and store them in the data folder in thier local cloned repos before running the scripts.
+The _scripts/_ folder contains python script to generate mutational hotspot regions in the spike domain region of the SARS-CoV2 virus. The _figures/_ folder contains the corresponding figures.
+
 - **Installation:**
-The scripts are written in python and require a working python3 with seaborn, matplotlib and pandas packages as additional dependencies.
+The scripts are written in python and require a working python3 with seaborn, matplotlib and pandas packages as additional dependencies. For requirements see requirements.txt in _scripts/_
 
 **Citations:**
 1. Łuksza et al., (Nature 2014) https://www.nature.com/articles/nature13087
